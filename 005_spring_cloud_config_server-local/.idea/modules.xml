@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/004_spring_cloud_config_server-local.iml" filepath="$PROJECT_DIR$/.idea/004_spring_cloud_config_server-local.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config-local/config-local.iml" filepath="$PROJECT_DIR$/config-local/config-local.iml" />
-    </modules>
-  </component>
-</project>
