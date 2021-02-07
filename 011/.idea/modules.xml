@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/011.iml" filepath="$PROJECT_DIR$/.idea/011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-server/authorization-server.iml" filepath="$PROJECT_DIR$/authorization-server/authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cafecloudcommoms/cafecloudcommoms.iml" filepath="$PROJECT_DIR$/cafecloudcommoms/cafecloudcommoms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/profileservice/profileservice.iml" filepath="$PROJECT_DIR$/profileservice/profileservice.iml" />
+    </modules>
+  </component>
+</project>
