@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: hhttps://github.com/Dilshika/MicroServices
+          uri: https://github.com/Dilshika/MicroServices/tree/master/services
             - '*service'
   
   
