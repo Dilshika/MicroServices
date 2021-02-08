@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/012_spring_security.iml" filepath="$PROJECT_DIR$/.idea/012_spring_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-server/authorization-server.iml" filepath="$PROJECT_DIR$/authorization-server/authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cafeui/cafeui.iml" filepath="$PROJECT_DIR$/cafeui/cafeui.iml" />
+    </modules>
+  </component>
+</project>
