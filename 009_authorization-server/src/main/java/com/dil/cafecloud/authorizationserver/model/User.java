@@ -25,7 +25,7 @@ public class User implements Serializable{
 
 
 
-    @Id
+        @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Integer id;
 
