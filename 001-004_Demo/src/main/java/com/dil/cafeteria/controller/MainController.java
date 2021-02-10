@@ -4,10 +4,7 @@ import com.dil.cafeteria.model.Coffee;
 import com.dil.cafeteria.service.CoffeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class MainController {
@@ -30,8 +27,8 @@ public class MainController {
         return  coffeeService.save(coffee);
     }
 
-    @RequestMapping(value = "/coffee",method = RequestMethod.GET)
-    public ResponseEntity<Coffee> fetchCoffee(@RequestBody int id){
+    @RequestMapping(value = "/coffee/{id}",method = RequestMethod.GET)
+    public ResponseEntity<Coffee> fetchCoffeeById(@PathVariable("id") int id){
 
         Coffee coffee=coffeeService.fetchCoffeeById(id);
         if(coffee==null){

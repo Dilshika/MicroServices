@@ -1,18 +1,17 @@
 package com.dil.cafeteria.model;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="coffeeTypes")
 public class Coffee {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
-    private int price;
+
 
     public int getId() {
         return id;
@@ -30,11 +29,4 @@ public class Coffee {
         this.name = name;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
 }
