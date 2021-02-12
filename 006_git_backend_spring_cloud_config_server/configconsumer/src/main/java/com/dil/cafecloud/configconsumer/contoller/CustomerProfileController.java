@@ -13,7 +13,7 @@ public class CustomerProfileController {
     @Autowired
     CustomerProfileConfiguration customerProfileConfiguration;
 
-    @RequestMapping("/customerprofile")
+    @RequestMapping("/profile")
     public String getConfig(Model model){
         model.addAttribute("type",customerProfileConfiguration.getCustomerType());
         model.addAttribute("discount",customerProfileConfiguration.getDiscountPrice());

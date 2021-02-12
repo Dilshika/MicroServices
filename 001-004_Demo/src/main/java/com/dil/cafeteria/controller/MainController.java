@@ -27,8 +27,8 @@ public class MainController {
         return  coffeeService.save(coffee);
     }
 
-    @RequestMapping(value = "/coffee/{id}",method = RequestMethod.GET)
-    public ResponseEntity<Coffee> fetchCoffeeById(@PathVariable("id") int id){
+    @RequestMapping(value = "/coffee",method = RequestMethod.GET)
+    public ResponseEntity<Coffee> fetchCoffeeById(@RequestParam int id){
 
         Coffee coffee=coffeeService.fetchCoffeeById(id);
         if(coffee==null){

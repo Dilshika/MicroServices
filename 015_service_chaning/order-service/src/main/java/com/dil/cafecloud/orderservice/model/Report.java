@@ -1,2 +1,4 @@
-package com.dil.cafecloud.orderservice.model;public interface Report {
+package com.dil.cafecloud.orderservice.model;
+
+public interface Report {
 }
