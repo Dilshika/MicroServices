@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 public class UserConfiguration extends GlobalAuthenticationConfigurerAdapter {
 
-    @Autowired
+   
     PasswordEncoder passwordEncoder= PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
     @Override
