@@ -24,7 +24,8 @@ public class AuthServerConfiguration extends WebSecurityConfigurerAdapter implem
     @Autowired
     AuthenticationManager authenticationManager;
 
-   PasswordEncoder passwordEncoder= PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    @Autowired
+    PasswordEncoder passwordEncoder= PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
